@@ -1,4 +1,4 @@
-# Air quality sensors SCD41 and Aranet4.
+# Air quality sensors SCD41 and Aranet4
 
 * University of Washington Summer 2022 
 * Prof. Vikram Iyer.
