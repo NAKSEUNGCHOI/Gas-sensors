@@ -2,7 +2,7 @@
 
 * University of Washington Summer 2022 
 * Prof. Vikram Iyer.
-* Nakseung Choi 
+* Nakseung Choi grad student @ UW 
 
 ## Description
 
