@@ -8,8 +8,8 @@ from Adafruit_IO import RequestError, Client, Feed
 # @param ADAFRUIT_IO_USERNAME NAME OF USER
 # @param ADAFRUIT_IO_KEY KEY provided by Adafruit IO
 # @param aio connecting as a client.
-ADAFRUIT_IO_USERNAME = "SSOLCHOI"
-ADAFRUIT_IO_KEY = "aio_hgdU13ZYf9OUmYe098rWi0dpOMSq"
+ADAFRUIT_IO_USERNAME = ""
+ADAFRUIT_IO_KEY = ""
 
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 #####################################################
