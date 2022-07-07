@@ -8,7 +8,10 @@
 
 Aranet4 is a commercialized air-quality(CO2) monitor system that is widely used among many instituations and individuals.
 However, the product is quite expensive and its accuracy in measuring CO2 isn't great.
-Running a SCD41 on raspberry pi 3, we are currently testing the performance of two sensors and collecting the data on Adafruit IO. 
+Running a SCD41 on raspberry pi 3, we are currently testing the performance of two sensors and collecting the data on Adafruit IO.
+
+Update (July-07-2022):
+ItsBitsy nRF52480 express (SoC) is going to be employed with Lora Radio (RFM9x) to send/receive CO2 data from a far distance.
 
 ## Getting Started
 
@@ -23,6 +26,7 @@ https://www.linkedin.com/in/nakseung-choi-090a1b69/
 
 ## Version History
 
+* Second commit 7/07/2022
 * Intial commit 6/24/2022
 
 ## License
