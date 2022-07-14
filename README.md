@@ -20,9 +20,9 @@ https://www.linkedin.com/in/nakseung-choi-090a1b69/
 
 ## Release Notes
 
-* Implemented SCD41 on nRF52480 express with Lora Radio (RFM9x)                             7-07-2022
-* Implemented SCD41 (via I2C) and Aranet4 (via Bluetooth) on Raspberry pi 3 (B type)        7-01-2022
-* Started                                                                                   6/24/2022
+* <pre>Implemented SCD41 on nRF52480 express with Lora Radio (RFM9x)                             7-07-2022<pre/>
+* <pre>Implemented SCD41 (via I2C) and Aranet4 (via Bluetooth) on Raspberry pi 3 (B type)        7-01-2022<pre/>
+* <pre>Started                                                                                   6/24/2022<pre/>
 
 ## License
 
