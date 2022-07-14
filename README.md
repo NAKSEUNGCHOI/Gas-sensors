@@ -15,8 +15,8 @@ ItsBitsy nRF52480 express is going to be employed with Lora Radio (RFM9x) to sen
 
 ## Authors
 
-Nakseung Choi
-https://www.linkedin.com/in/nakseung-choi-090a1b69/
+- Nakseung Choi
+- This is my Linkedin: https://www.linkedin.com/in/nakseung-choi-090a1b69/
 
 ## Release Notes
 
