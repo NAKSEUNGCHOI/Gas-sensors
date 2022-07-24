@@ -1,4 +1,4 @@
-# Project Air quality sensors (SCD41)
+# Project Air quality sensors
 
 * University of Washington Summer 2022 
 * Prof. Vikram Iyer.
