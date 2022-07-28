@@ -20,9 +20,11 @@ ItsBitsy nRF52480 express is going to be employed with Lora Radio (RFM9x) to sen
 
 ## Release Notes
 
-* <pre>CO Sensor PCB Design complete                                                             7-27-2022</pre>
+* <pre>Installed CO2 sensor's in a small office with two people.                                 7-28-2022</pre>
+* <pre>CO Sensor PCB Design V2 complete.                                                         7-28-2022</pre>
+* <pre>CO Sensor PCB Design complete.                                                            7-27-2022</pre>
 * <pre>Testing 24 hours success.                                                                 7-26-2022</pre>
-* <pre>Testing twoSCD41s and two aranets4s on Raspberry pi 3.                                    7-25-2022</pre>
+* <pre>Testing two SCD41s and two aranets4s on Raspberry pi 3.                                   7-25-2022</pre>
 * <pre>Working on PCB design for CO sensor                                                       7-24-2022</pre>
 * <pre>Implemented two SCD41s and two aranet4s on Raspberry pi 3 for a testing.                  7-21-2022</pre>
 * <pre>Implemented SCD41 on nRF52480 express with Lora Radio (RFM9x)                             7-07-2022</pre>
