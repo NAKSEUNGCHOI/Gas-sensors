@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "EcobitNRF9160 EV3")(type "KiCad")(uri "$(KIPRJMOD)/EcobitNRF9160 EV3.pretty")(options "")(descr ""))
+  (lib (name "Libraries")(type "KiCad")(uri "${KIPRJMOD}/Libraries.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/EcobitNRF9160 EV3.pretty/Library.pretty")(options "")(descr ""))
+)
