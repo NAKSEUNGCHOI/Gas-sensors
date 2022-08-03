@@ -21,7 +21,7 @@ ItsBitsy nRF52480 express is going to be employed with Lora Radio (RFM9x) to sen
 ## Release Notes
 
 * <pre>Designing a new circuit for CO sensor due to the chip shortage (LMP9100 out of stock)     8-02-2022</pre>
-* <pre>Installed CO2 sensor's in an office with two people.                                 7-28-2022</pre>
+* <pre>Installed CO2 sensor's in an office with two people.                                      7-28-2022</pre>
 * <pre>CO Sensor PCB Design V2 complete.                                                         7-28-2022</pre>
 * <pre>CO Sensor PCB Design complete.                                                            7-27-2022</pre>
 * <pre>Testing 24 hours success.                                                                 7-26-2022</pre>
