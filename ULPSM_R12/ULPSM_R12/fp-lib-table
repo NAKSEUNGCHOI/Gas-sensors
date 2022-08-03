@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "F951E105")(type "KiCad")(uri "C:/Users/chlsk/OneDrive/Desktop/PCBs/ULPSM_R12/ul_F951E105MPAAQ2/KiCAD/2022-08-02_20-52-57/footprints.pretty")(options "")(descr ""))
+  (lib (name "MPU6024T-I-MS")(type "KiCad")(uri "C:/Users/chlsk/OneDrive/Desktop/PCBs/ULPSM_R12/ul_MCP6042T-I-MS/KiCAD/2022-08-02_21-14-16/footprints.pretty")(options "")(descr ""))
+  (lib (name "CO2")(type "KiCad")(uri "C:/Users/chlsk/OneDrive/Desktop/PCBs/ULPSM_R12/Libraries.pretty")(options "")(descr ""))
+)
