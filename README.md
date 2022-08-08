@@ -2,7 +2,7 @@
 
 * University of Washington Summer 2022 
 * Prof. Vikram Iyer.
-* Nakseung Choi | graduate research assistant @ ECE UW 
+* Nakseung Choi | graduate research assistant @ SSOL UW 
 
 ## Description
 
