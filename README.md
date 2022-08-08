@@ -6,12 +6,7 @@
 
 ## Description
 
-Aranet4 is a commercialized air-quality(CO2) monitor system that is widely used among many instituations and individuals.
-However, the product is quite expensive and its accuracy in measuring CO2 isn't great.
-Running a SCD41 on raspberry pi 3, we are currently testing the performance of two sensors and collecting the data on Adafruit IO.
-
-Update (July-07-2022):
-ItsBitsy nRF52480 express is going to be employed with Lora Radio (RFM9x) to send/receive CO2 data from a far distance.
+Prof. Vikram Iyer and I are currently building an air quality sensor system to help two groups of scientists collect air quality data (Greenhouse gases) in the UW area and in the middle of the mountain in the eastern washington. One group would like to conduct research studies on where these green house gasses originate from and other group would like to do research on how these greenhouse gasses affect wild animals. We are currently testing several sensors to ensure the functionality by comparting them with a common commercial one (aranet4.) In the mean time, we are working on circuit design for these sensors to interface with a microcontroller (nRF52480 ARM Cortex-M4.) Lora Radio communication is going to be implemented to be able to implement a long distance communcation interface between a transmitter and receiver (point to point communication.)
 
 ## Authors
 
