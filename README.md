@@ -15,6 +15,7 @@ Prof. Vikram Iyer and I are currently building an air quality sensor system to h
 
 ## Release Notes
 
+* <pre>Testing Xensiv PAS CO2 manufactured by Infineon.                                          8-08-2022</pre>
 * <pre>All parts are done soldering onto the board. Going to test the PCB.                       8-07-2022</pre>
 * <pre>CO sensor PCB design complete. About to sorder the CO sensor circuit.                     8-03-2022</pre> 
 * <pre>Designing a new circuit for CO sensor due to the chip shortage (LMP9100 out of stock)     8-02-2022</pre>
