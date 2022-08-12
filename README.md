@@ -15,6 +15,8 @@ Prof. Vikram Iyer and I are currently building an air quality sensor system to h
 
 ## Release Notes
 
+* <pre>PASCO2s are going to be tested with scd41 and aranet4 together for the functionality      8-11-2022</pre>
+* <pre>Xensiv PAS CO2 coding in python complete.                                                 8-11-2022</pre>
 * <pre>Xensiv PAS CO2 working. Testing started.                                                  8-10-2022</pre>
 * <pre>Debugging Xensiv PAS CO2                                                                  8-09-2022</pre>
 * <pre>Testing Xensiv PAS CO2 manufactured by Infineon.                                          8-08-2022</pre>
