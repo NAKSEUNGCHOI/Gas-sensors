@@ -15,6 +15,7 @@ Prof. Vikram Iyer and I are currently building an air quality sensor system to h
 
 ## Release Notes
 
+* <pre> Testing CO sensor                                                                        8-16-2022</pre>
 * <pre> setting up Black Carbon sensor & CO sensor                                               8-15-2022</pre>
 * <pre> testing two SCD41s, two aranets, two PASCO2s all together.                               8-15-2022</pre>
 * <pre>Debugging Complete. Ready to go for a testing.                                            8-14-2022</pre>
