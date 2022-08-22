@@ -15,6 +15,7 @@ Prof. Vikram Iyer and I are currently building an air quality sensor system to h
 
 ## Release Notes
 
+* <pre> presentation preparation2                                                                8-20-2022</pre>
 * <pre> presentation preparation                                                                 8-20-2022</pre>
 * <pre> Software done. software/hardware integration started                                     8-18-2022</pre>
 * <pre> Testing CO sensor 2                                                                      8-17-2022</pre>
