@@ -15,6 +15,7 @@ Prof. Vikram Iyer and I are currently building an air quality sensor system to h
 
 ## Release Notes
 
+* <pre> got the CO sensor working with a noise. more testing...........                          8-23-2022</pre>
 * <pre> created a new PCB board and testing..                                                    8-22-2022</pre>
 * <pre> presentation preparation2                                                                8-20-2022</pre>
 * <pre> presentation preparation                                                                 8-20-2022</pre>
