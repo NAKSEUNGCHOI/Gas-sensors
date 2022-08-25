@@ -1,4 +1,4 @@
-# Project Air quality sensors
+# Project Gas(Air quality) sensors
 
 * University of Washington Summer 2022 
 * Prof. Vikram Iyer.
@@ -6,12 +6,15 @@
 
 ## Description
 
-Prof. Vikram Iyer and I are currently building an air quality sensor system to help two groups of scientists collect air quality data (Greenhouse gases) in the UW area and in the middle of the mountain in the eastern washington. One group would like to conduct research studies on where these green house gasses originate from and other group would like to do research on how these greenhouse gasses affect wild animals. We are currently testing several sensors to ensure the functionality by comparting them with a common commercial one (aranet4.) In the mean time, we are working on circuit design for these sensors to interface with a microcontroller (nRF52480 ARM Cortex-M4.) Lora Radio communication is going to be implemented to be able to implement a long distance communcation interface between a transmitter and receiver (point to point communication.)
+* Prof. Vikram Iyer and I are currently building low power low cost gas sensors (CO2, CO, and black carbon) to help two groups of scientists collect data for their research studies. One group wants to get data in the greater Seattle area to study on where these gasses are coming from and do further study to help mitigate climate change/global warming in the area. Ultimately, they would like to expand the gas sensors locations to compare data with each other.
+The other group would like to place these gas sensors in the middle of moutains in the eastern Washington to study how these gases(CO2 and CO) affect wild animals when there is an unexpected wildfire going or in general. 
+
+* We are currently testing several CO2 sensors to compare the functionality with a commercial device. In the mean time, we are done with our own PCB design for SPEC CO sensor as well as hardware/software integration. Depending on how precise data the scientists need, we are planning to make it acordingly. nRF52480 Arm Cortex-m4 is probably going to be used for the MCU. Using Lora radio communication, a long distance communication interface will also be implemented to update data to the webserver such that the scientists can check the data in real time.  
 
 ## Authors
 
 - Nakseung Choi
-- This is my Linkedin: https://www.linkedin.com/in/nakseung-choi-090a1b69/
+- Please check out my Linkedin: https://www.linkedin.com/in/nakseung-choi-090a1b69/
 
 ## Release Notes
 
