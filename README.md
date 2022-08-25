@@ -6,10 +6,10 @@
 
 ## Description
 
-* Prof. Vikram Iyer and I are currently building low power low cost gas sensors (CO2, CO, and black carbon) to help two groups of scientists collect data for their research studies. One group wants to get data in the greater Seattle area to study on where these gasses are coming from and do further study to help mitigate climate change/global warming in the area. Ultimately, they would like to expand the gas sensors locations to compare data with each other.
-The other group would like to place these gas sensors in the middle of moutains in the eastern Washington to study how these gases(CO2 and CO) affect wild animals when there is an unexpected wildfire going or in general. 
+* Prof. Vikram Iyer and I are currently building low power low cost gas sensors (CO2, CO, and black carbon) to help two groups of scientists collect data for their research studies. One group wants to get data in the greater Seattle area to study on where these gasses are coming from. Ultimately, they would like to expand the number of the gas sensors in different locations such that they can compare with other locations for further studies.
+The other group would like to place these gas sensors in the middle of moutains in the eastern Washington to study how these gases(CO2 and CO) affect wild animals when there is an unexpected wildfire going. 
 
-* We are currently testing several CO2 sensors to compare the functionality with a commercial device. In the mean time, we are done with our own PCB design for SPEC CO sensor as well as hardware/software integration. Depending on how precise data the scientists need, we are planning to make it acordingly. nRF52480 Arm Cortex-m4 is probably going to be used for the MCU. Using Lora radio communication, a long distance communication interface will also be implemented to update data to the webserver such that the scientists can check the data in real time.  
+* We are currently testing several CO2 sensors to compare their functionality with a commercial device. In the mean time, we just got done with our own PCB design for SPEC CO sensor as well as hardware/software integration. Depending on how precise data the scientists need, we are going to make it acordingly. nRF52480 Arm Cortex-m4 is probably going to be used for the MCU. Using Lora radio communication, a long distance communication interface will also be implemented to update data to the web server such that the scientists can check the data in real time.  
 
 ## Authors
 
