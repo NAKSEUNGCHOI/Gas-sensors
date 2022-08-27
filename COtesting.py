@@ -54,7 +54,7 @@ def read_data(name, serial):
 
 def adafruitIO_init():
     ADAFRUIT_IO_USERNAME = "SSOLCHOI2"
-    ADAFRUIT_IO_KEY = "aio_Ksex19Yas0alZuiL7f03Mx4YEWKb"
+    ADAFRUIT_IO_KEY = ""
     aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
     print("Adafruit IO connected")
     return aio
