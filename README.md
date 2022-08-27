@@ -18,6 +18,7 @@ The other group would like to place these gas sensors in the middle of moutains 
 
 ## Release Notes
 
+* <pre> arduino / python serial communication script complete. Sending data to adafruitIO        8-26-2022</pre>
 * <pre> presentation done. more CO testing / preparing to set up MA350.                          8-24-2022</pre>                                                     
 * <pre> got the CO sensor working with noise. more testing...........                            8-23-2022</pre>
 * <pre> created a new PCB board and testing..                                                    8-22-2022</pre>
