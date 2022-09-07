@@ -12,17 +12,33 @@
 #include <RH_RF95.h>
 #include <Arduino.h>
 #include <Adafruit_TinyUSB.h>
+#include <SensirionI2CScd4x.h>
+#include <Wire.h>
 
 // for ItsyBitsy nRF52840 express
 #define RFM95_RST 10 //direct PIN numbers
 #define RFM95_CS 11
 #define RFM95_INT 12
 
-// This frequency must match RX's freq!
-#define RF95_FREQ 915.0
+#define RF95_FREQ 915.0 // This frequency must match RX's freq!
+RH_RF95 rf95(RFM95_CS, RFM95_INT); // Singleton instance of the radio driver
 
-// Singleton instance of the radio driver
-RH_RF95 rf95(RFM95_CS, RFM95_INT);
+SensirionI2CScd4x scd4x;
+
+void printUint16Hex(uint16_t value) {
+    Serial.print(value < 4096 ? "0" : "");
+    Serial.print(value < 256 ? "0" : "");
+    Serial.print(value < 16 ? "0" : "");
+    Serial.print(value, HEX);
+}
+
+void printSerialNumber(uint16_t serial0, uint16_t serial1, uint16_t serial2) {
+    Serial.print("Serial: 0x");
+    printUint16Hex(serial0);
+    printUint16Hex(serial1);
+    printUint16Hex(serial2);
+    Serial.println();
+}
 
 void setup() 
 {
@@ -35,7 +51,6 @@ void setup()
   }
 
   delay(100);
-
   Serial.println("nRF52840 LoRa TX Test!");
 
   // manual reset
@@ -64,6 +79,43 @@ void setup()
   // If you are using RFM95/96/97/98 modules which uses the PA_BOOST transmitter pin, then 
   // you can set transmitter powers from 5 to 23 dBm:
   rf95.setTxPower(23, false);
+  /**************************************************************************************************/
+  Wire.begin();
+
+  uint16_t error;
+  char errorMessage[256];
+
+  scd4x.begin(Wire);
+
+  error = scd4x.stopPeriodicMeasurement();
+    if (error) {
+        Serial.print("Error trying to execute stopPeriodicMeasurement(): ");
+        errorToString(error, errorMessage, 256);
+        Serial.println(errorMessage);
+    }
+
+  uint16_t serial0;
+  uint16_t serial1;
+  uint16_t serial2;
+  error = scd4x.getSerialNumber(serial0, serial1, serial2);
+  if (error) {
+      Serial.print("Error trying to execute getSerialNumber(): ");
+      errorToString(error, errorMessage, 256);
+      Serial.println(errorMessage);
+  } else {
+      printSerialNumber(serial0, serial1, serial2);
+  }
+
+    // Start Measurement
+  error = scd4x.startPeriodicMeasurement();
+  if (error) {
+      Serial.print("Error trying to execute startPeriodicMeasurement(): ");
+      errorToString(error, errorMessage, 256);
+      Serial.println(errorMessage);
+  }
+
+  Serial.println("Waiting for first measurement... (5 sec)");
+
 }
 
 int16_t packetnum = 0;  // packet counter, we increment per xmission
@@ -75,12 +127,39 @@ int16_t packetnum = 0;  // packet counter, we increment per xmission
  */
 void loop()
 {
-  delay(1000); // Wait 1 second between transmits, could also 'sleep' here!
+
+  uint16_t error;
+  char errorMessage[256];
+
+  delay(5000);
+
+    // Read Measurement
+  uint16_t co2;
+  float temperature;
+  float humidity;
+  error = scd4x.readMeasurement(co2, temperature, humidity);
+  if (error) {
+      Serial.print("Error trying to execute readMeasurement(): ");
+      errorToString(error, errorMessage, 256);
+      Serial.println(errorMessage);
+  } else if (co2 == 0) {
+      Serial.println("Invalid sample detected, skipping.");
+  } else {
+      Serial.print(". Co2:");
+      Serial.print(co2);
+      Serial.print("\t");
+      // Serial.print("Temperature:");
+      // Serial.print(temperature);
+      // Serial.print("\t");
+      // Serial.print("Humidity:");
+      // Serial.println(humidity);
+  }
+
   Serial.println("Transmitting..."); // Send a message to rf95_server
   
-  char radiopacket[20] = "Hello World #      ";
-  itoa(packetnum++, radiopacket+13, 10);
-  Serial.print("Sending "); Serial.println(radiopacket);
+  char radiopacket[20] = "Hello! Co2:     ";
+  itoa(co2, radiopacket+13, 10);
+  Serial.print("Sending CO2:"); Serial.println(co2);
   radiopacket[19] = 0;
   
   Serial.println("Sending...");

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\chlsk\OneDrive\Desktop\PCBs\CO_KiCad\EcobitNRF9160 EV3.kicad_sch</source>
+    <date>7/28/2022 2:46:07 PM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EcobitNRF9160 EV3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AFE-CO1">
+      <value>LMP91000SD/NOPB</value>
+      <footprint>EcobitNRF9160 EV3:SON50P400X400X80-15N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="LMP91000SD{slash}NOPB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3eba7c3-0824-40e7-84b4-f906051414b8</tstamps>
+    </comp>
+    <comp ref="AMP-CO1">
+      <value>MCP6041T-E/OT</value>
+      <footprint>EcobitNRF9160 EV3:SOT95P320X145-5N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="MCP6041T-E{slash}OT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddecd4ce-38c8-438f-961f-cd75f3aba106</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF 10V 20% Tant</value>
+      <footprint>EcobitNRF9160 EV3:RESC0805_N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="CAPACITOR_0805_N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed62ec19-7eed-48af-8e49-0051beb987e8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>EcobitNRF9160 EV3:RESC0603_N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="CAPACITOR_0603_N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>422221b5-258f-4c6d-94aa-2024f24d5ff7</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>EcobitNRF9160 EV3:RESC0603_N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="CAPACITOR_0603_N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89cb87b2-ad6e-48b5-9d40-fa034068f5c2</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ISL60002DIH320Z-TK</value>
+      <footprint>EcobitNRF9160 EV3:SOT-23-3</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="ISL60002DIH320Z-TK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cd013dc-7200-4245-990e-9ee8a46e1428</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ae4b335-e191-4726-b532-5385dc64e792</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>499k</value>
+      <footprint>EcobitNRF9160 EV3:RESC0603_N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="RESISTOR_0603_N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ddd7faf-67ba-49a9-9587-90f48fd091ad</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>499k</value>
+      <footprint>EcobitNRF9160 EV3:RESC0603_N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="RESISTOR_0603_N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2756401-5f6e-4612-94bc-3f9935e4fc72</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>EcobitNRF9160 EV3:RESC0603_N</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="RESISTOR_0603_N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3476dfd0-8614-4d04-ac6c-c8ae27c2ff39</tstamps>
+    </comp>
+    <comp ref="SENS-CO1">
+      <value>SPECSENSOR</value>
+      <footprint>Libraries:3SP_CO_1000_P_Package_2</footprint>
+      <libsource lib="EcobitNRF9160 EV3-eagle-import" part="SPECSENSOR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EcobitNRF9160 EV3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6a7f42c-3ddf-45f7-9b64-752bc7877b7e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EcobitNRF9160 EV3-eagle-import" part="CAPACITOR_0603_N">
+      <fields>
+        <field name="Value">CAPACITOR_0603_N</field>
+        <field name="Footprint">EcobitNRF9160 EV3:RESC0603_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EcobitNRF9160 EV3-eagle-import" part="CAPACITOR_0805_N">
+      <fields>
+        <field name="Value">CAPACITOR_0805_N</field>
+        <field name="Footprint">EcobitNRF9160 EV3:RESC0805_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EcobitNRF9160 EV3-eagle-import" part="ISL60002DIH320Z-TK">
+      <fields>
+        <field name="Value">ISL60002DIH320Z-TK</field>
+        <field name="Footprint">EcobitNRF9160 EV3:SOT-23-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EcobitNRF9160 EV3-eagle-import" part="LMP91000SD{slash}NOPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMP91000SD{slash}NOPB</field>
+        <field name="Footprint">EcobitNRF9160 EV3:SON50P400X400X80-15N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DGND" type="power_in"/>
+        <pin num="2" name="~{MENB}" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="AGND" type="power_in"/>
+        <pin num="8" name="VOUT" type="output"/>
+        <pin num="9" name="C2" type="passive"/>
+        <pin num="10" name="C1" type="passive"/>
+        <pin num="11" name="VREF" type="power_in"/>
+        <pin num="12" name="WE" type="input"/>
+        <pin num="13" name="RE" type="input"/>
+        <pin num="14" name="CE" type="input"/>
+        <pin num="15" name="DAP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EcobitNRF9160 EV3-eagle-import" part="MCP6041T-E{slash}OT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6041T-E{slash}OT</field>
+        <field name="Footprint">EcobitNRF9160 EV3:SOT95P320X145-5N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="VIN+" type="input"/>
+        <pin num="4" name="VIN-" type="input"/>
+        <pin num="5" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EcobitNRF9160 EV3-eagle-import" part="RESISTOR_0603_N">
+      <fields>
+        <field name="Value">RESISTOR_0603_N</field>
+        <field name="Footprint">EcobitNRF9160 EV3:RESC0603_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EcobitNRF9160 EV3-eagle-import" part="SPECSENSOR">
+      <fields>
+        <field name="Reference">SENS-CO1</field>
+        <field name="Value">SPECSENSOR</field>
+        <field name="Footprint">Libraries:3SP_CO_1000_P_Package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="WORKING@1" type="bidirectional"/>
+        <pin num="4" name="REFERENCE" type="bidirectional"/>
+        <pin num="5" name="COUNTER" type="bidirectional"/>
+        <pin num="6" name="WORKING@2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="EcobitNRF9160 EV3-eagle-import">
+      <uri>C:\Users\chlsk\OneDrive\Desktop\PCBs\CO_KiCad/EcobitNRF9160 EV3-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3ACC">
+      <node ref="IC1" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="2" name="/CO-AMPVOUT">
+      <node ref="AMP-CO1" pin="1" pinfunction="VOUT" pintype="output"/>
+      <node ref="AMP-CO1" pin="4" pinfunction="VIN-" pintype="input"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="4" name="/SCL">
+      <node ref="AFE-CO1" pin="3" pinfunction="SCL" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/SDA">
+      <node ref="AFE-CO1" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="7" name="/VDD">
+      <node ref="AFE-CO1" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="AMP-CO1" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="8" name="/VREFADC">
+      <node ref="AFE-CO1" pin="11" pinfunction="VREF" pintype="power_in"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="VOUT" pintype="power_in"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/~{GASSENS-EN}">
+      <node ref="AFE-CO1" pin="2" pinfunction="~{MENB}" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="AFE-CO1" pin="1" pinfunction="DGND" pintype="power_in"/>
+      <node ref="AFE-CO1" pin="15" pinfunction="DAP" pintype="power_in"/>
+      <node ref="AFE-CO1" pin="7" pinfunction="AGND" pintype="power_in"/>
+      <node ref="AMP-CO1" pin="2" pinfunction="VSS" pintype="passive"/>
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(AFE-CO1-Pad8)">
+      <node ref="AFE-CO1" pin="8" pinfunction="VOUT" pintype="output"/>
+      <node ref="AMP-CO1" pin="3" pinfunction="VIN+" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(AFE-CO1-Pad9)">
+      <node ref="AFE-CO1" pin="9" pinfunction="C2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(AFE-CO1-Pad10)">
+      <node ref="AFE-CO1" pin="10" pinfunction="C1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(AFE-CO1-Pad12)">
+      <node ref="AFE-CO1" pin="12" pinfunction="WE" pintype="input"/>
+      <node ref="SENS-CO1" pin="1" pinfunction="WORKING@1" pintype="bidirectional"/>
+      <node ref="SENS-CO1" pin="6" pinfunction="WORKING@2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(AFE-CO1-Pad13)">
+      <node ref="AFE-CO1" pin="13" pinfunction="RE" pintype="input"/>
+      <node ref="SENS-CO1" pin="4" pinfunction="REFERENCE" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(AFE-CO1-Pad14)">
+      <node ref="AFE-CO1" pin="14" pinfunction="CE" pintype="input"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SENS-CO1" pin="5" pinfunction="COUNTER" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

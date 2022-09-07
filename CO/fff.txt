@@ -1,0 +1,45 @@
+import sys
+import time
+import board
+import busio
+
+i2c = busio.I2C(board.SCL, board.SDA)
+
+print("I2C devices found: ", [hex(i) for i in i2c.scan()])
+
+PASCO2 = 0x28;
+
+if not PASCO2 in i2c.scan():
+    print("Could not find PASCO2")
+    sys.exit()
+
+def get_PASCO2_id():
+    i2c.writeto(PASCO2, bytes([0x00]), stop=False)
+    result = bytearray(1)
+    i2c.readfrom_into(PASCO2, result)
+    print("PASCO2 ID: ", int.from_bytes(result, "big"))
+    
+def get_PASCO2_status():
+    i2c.writeto(PASCO2, bytes([0x01]), stop=False)
+    result = bytearray(1)
+    i2c.readfrom_into(PASCO2, result)
+    print("PASCO2 status: ", [hex(i) for i in result]) #int.from_bytes(result, "big"))
+    
+def combine_register_values(h, l):
+    if not h[0] & 0x80:
+        return h[0] << 8 | l[0]
+    return -((h[0] ^ 255) << 8) | (l[0] ^ 255) + 1
+
+#def get_CO2(data):
+#    value = data[0] << 8 | data[1]
+    #ppm = (value & 0xFFF) / 16.0
+    #if value & 0x1000:
+    #    ppm -= 256.0
+#    return value
+
+#while True:
+    #i2c.writeto(PASCO2, bytes([0x00]), stop=False)
+    #result = bytearray(2)
+    #i2c.readfrom_into(PASCO2, result)
+    #print(get_CO2(result))
+    #time.sleep(5)
