@@ -18,7 +18,8 @@ The other group would like to place these gas sensors in the middle of moutains 
 
 ## Release Notes
 
-* <pre> Wrote a python code to plot a CO2 sensor - avg of two aranets for 4 sensors           9-08-2022</pre>
+* <pre> Created another python code to draw different plots for CO2 sensors                   9-12-2022</pre>
+* <pre> Wrote a python code to plot CO2 sensors - avg of two aranets for 4 sensors            9-08-2022</pre>
 * <pre> wrote a python program using mathplot to graph the CO2 data  (Still testing MA350)    9-07-2022</pre>
 * <pre> Testing the MA350                                                                     8-29-2022</pre>
 * <pre> arduino / python serial communication script complete. Sending data to adafruitIO     8-26-2022</pre>
